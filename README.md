@@ -1,61 +1,79 @@
+# 🚀 Study Notion - ED Tech Web Application
 
-# ED-TECH
+Study Notion is an advanced **Education Technology (ED Tech)** web application built using the **MERN Stack**. It provides a seamless learning experience for students and powerful course management tools for instructors.
 
-# Study Notion
+---
 
-Study Notion is an ED Tech (Education Technology) web application developed using the MERN stack.
-***
-## Features
+## 🌟 Features
 
-* User Authentication: Study Notion provides secure user registration and authentication using JWT (JSON Web Tokens). Users can sign up, log in, and manage their 
-  profiles with ease.
-  
-* Courses and Lessons: Instructors can create and edit created courses. Students can enroll in courses, access course materials, and track their progress.
-* Progress Tracking: Study Notion allows students to track their progress in enrolled courses. They can view completed lessons, scores on quizzes and 
-  assignments, and overall course progress.
-  
-* Payment Integration: Study Notion integrates with Razorpay for payment processing. Users can make secure payments for course enrollment and other services 
-  using various payment methods supported by Razorpay.
-  
-* Search Functionality: Users can easily search for courses, lessons, and resources using the built-in search feature. This makes it convenient to find relevant 
-  content quickly.
-  
-* Instructor Dashboard: Instructors have access to a comprehensive dashboard to view information about their courses, students, and income. The 
- dashboard provides charts and visualizations to present data clearly and intuitively. Instructors can monitor the total number of students enrolled in 
- each course, track course performance, and view their income generated from course sales.
+### 🔑 User Authentication
+- Secure **user registration & login** with **JWT (JSON Web Tokens)**.
+- Profile management for **students, instructors, and admins**.
 
+### 📚 Courses & Lessons
+- **Instructors** can **create, edit, and manage** courses.
+- **Students** can **enroll, access course materials, and track progress**.
 
+### 📊 Progress Tracking
+- View **completed lessons, quizzes, assignments, and overall progress**.
 
-## Important
-* Backend is  in the server folder.
-* First create the categories e.g. web dev, Python, etc. (without categories courses cannot be added). To create categories create an Admin account and go to dashboard then admin panel.
-* To create an Admin account first sign up with a student or instructor account then go to your Database under the users model and change that 'accountType' to 'Admin'.
+### 💳 Payment Integration
+- Secure **Razorpay integration** for **hassle-free payments**.
+- Multiple payment methods supported.
 
+### 🔍 Search Functionality
+- Quickly **find courses, lessons, and resources**.
 
-## Installation
+### 🏫 Instructor Dashboard
+- **Visual charts & insights** into courses, students, and revenue.
+- Monitor **enrollments & income generated** from courses.
 
- Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/codder077/ED-TECH.git
-    ```
+---
 
- Install the required packages.
+## ⚠️ Important Notes
 
-    
-    cd server
-    npm install
-   
+🔹 **Backend is in the `server` folder**
+🔹 **Categories must be created before adding courses** (e.g., Web Development, Python, etc.)
+🔹 **Creating an Admin Account:**
+   - First, **sign up** as a **Student** or **Instructor**.
+   - Go to your **Database (`users` model)**.
+   - Change `accountType` to `Admin`.
 
- Set up the environment variables:
+---
 
-   Create a .env file in the root directory and /server
-   Add the required environment variables, such as database connection details, JWT secret, and any other necessary configurations check .env.example files for more info.
+## 🛠️ Installation Guide
 
+### **1️⃣ Clone the Repository**
+```sh
+  git clone https://github.com/codder077/ED-TECH.git
+```
 
-Start the development server.
-    ```sh
-    npm run dev
-    ```
-Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
+### **2️⃣ Install Dependencies**
+```sh
+  cd server
+  npm install
+```
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+### **3️⃣ Set Up Environment Variables**
+- Create a **`.env`** file in the root directory and **inside `/server`**.
+- Add the required **database connection details, JWT secret**, etc.
+- Check `.env.example` files for reference.
+
+### **4️⃣ Start the Development Server**
+```sh
+  npm run dev
+```
+
+### **5️⃣ Open in Browser**
+📌 Visit: [`http://localhost:3000`](http://localhost:3000)
+
+---
+
+## 🎨 Styling & Customization
+- Uses **PostCSS** and `postcss-cli` for CSS processing.
+- Customize Tailwind with your own `tailwind.config.js` file.
+
+---
+
+🚀 **Happy Learning with Study Notion!** 🎓✨
+
